@@ -1,17 +1,25 @@
-# Compiled Object files
+# Compiled Object files & Dependencies
 *.o
 *.obj
+.d/
 
-# Executables
+# Executables & Binaries
 *.bin
 *.elf
 
-# PROS
+# PROS Build & IDE
 bin/
 .vscode/
 .cache/
+.clangd/
 compile_commands.json
 temp.log
 temp.errors
+*.log
+*.errors
 *.ini
-.d/
+
+# OS Specific Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
